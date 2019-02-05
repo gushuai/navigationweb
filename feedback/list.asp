@@ -1,20 +1,20 @@
- <!-- #include file="include/conn.asp" -->
- <title>È«²¿ÁôÑÔ</title>
+ï»¿ <!-- #include file="include/conn.asp" -->
+ <title>å…¨éƒ¨ç•™è¨€</title>
    <%   Set rs = server.CreateObject("ADODB.Recordset")
      sql="select * from contents order by id desc"
 	 rs.Open sql,conn,1,1
      Do While Not rs.eof  
              
               response.write ("<table><tr>")
-              response.write ("<td>&nbsp;&nbsp;ĞÕÃû:"&rs("name")&"</td>")
-			  response.write ("<td>&nbsp;&nbsp;ÁôÑÔÊ±¼ä:"&rs("time")&"</td>")
+              response.write ("<td>&nbsp;&nbsp;å§“å:"&rs("name")&"</td>")
+			  response.write ("<td>&nbsp;&nbsp;ç•™è¨€æ—¶é—´:"&rs("time")&"</td>")
 			  response.write ("</tr>")
-              response.write ("<tr><td colspan='4'>ÁôÑÔ:"&rs("content")&"</td></tr></table><br/>")
+              response.write ("<tr><td colspan='4'>ç•™è¨€:"&rs("content")&"</td></tr></table><br/>")
               response.write ("<hr/>")
               
 	  rs.movenext
 	  Loop
-	  rem ÊÍ·Å×ÊÔ´
+	  rem é‡Šæ”¾èµ„æº
 	  rs.close
 	  Set rs = Nothing
 	  

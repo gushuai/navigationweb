@@ -1,4 +1,4 @@
-<%
+ï»¿<%
   If session("admin")="admin" Then 
      content = request("post_contents")
      id = request("id")
@@ -17,6 +17,6 @@
   }
  
  else
- response.write ("<script language='javascript'>alert('·Ç·¨½øÈë¿É³Ü£¡');location='index.php';</script>")
+ response.write ("<script language='javascript'>alert('éæ³•è¿›å…¥å¯è€»ï¼');location='index.php';</script>")
  End If 
 %>

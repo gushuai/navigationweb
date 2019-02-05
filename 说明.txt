@@ -1,34 +1,34 @@
-��װ����ѹ�󣬽���Ŀ¼���ļ��ϴ�����վ��Ŀ¼���ɣ�
+﻿安装：解压后，将此目录的文件上传至网站根目录即可！
 
 
-====================[ͼ�λ���վ���Ե���]=========================
+====================[图形化名站个性导航]=========================
 
-    �õ�����һ���Լ�ԼΪ���ĵĸ�����ַ�����������ӱ���أ��ǳ��и��Ե�Сͼ����վ������ͻ����վ����Ҫ�ԣ���Լ��ˬ���Ǹ���վ�����ɶ�õ��ղؾ�Ʒ��
+    该导航是一款以简约为中心的个性网址导航，风格新颖独特，非常有个性的小图标名站，更能突显名站的重要性！简约清爽，是个人站长不可多得的收藏精品。
 
-Ĭ����ҳ��index.htm
+默认首页：index.htm
 
-�޸���ʾ��
-���� ��վLOGOλ����images/logo.gif��
-���� ͳ�ƴ�����js/tj.js�޸�
-���� ���԰������̨http://�����վ/feedback/admin_index.asp �û�����admin ���룺admin 
-
-
-
-���أ�http://www.ycff.com/
+修改提示：
+　※ 网站LOGO位置在images/logo.gif；
+　※ 统计代码在js/tj.js修改
+　※ 留言板管理后台http://你的网站/feedback/admin_index.asp 用户名：admin 密码：admin 
 
 
 
+下载：http://www.ycff.com/
 
 
 
 
 
 
-��С���ߣ�
-��վ���ز��Գ���http://pan.baidu.com/s/1hs6qr2G
-һ�������滻�ı����ߣ�http://pan.baidu.com/s/1bTmPlW
+
+
+
+附小工具：
+网站本地测试程序：http://pan.baidu.com/s/1hs6qr2G
+一键批量替换文本工具：http://pan.baidu.com/s/1bTmPlW
 
 
 ------------------------
 
-��������Դ�����������Ѳ���֮�ã�����������ҵ��;��
+声明：本源码仅供个人免费测试之用，请勿用于商业用途。

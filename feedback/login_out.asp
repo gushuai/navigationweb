@@ -1,7 +1,7 @@
-<%
-rem Çå³ýsession
+ï»¿<%
+rem æ¸…é™¤session
 session("admin")=""
 Session.Abandon()
 response.redirect("index.asp")
-rem ·µ»Øadmin_index.phpÊÇÅÐ¶ÏsessionÊÇ·ñÇå³ý³É¹¦£¬³É¹¦Ôò·µ»Øindex.php
+rem è¿”å›žadmin_index.phpæ˜¯åˆ¤æ–­sessionæ˜¯å¦æ¸…é™¤æˆåŠŸï¼ŒæˆåŠŸåˆ™è¿”å›žindex.php
 %>

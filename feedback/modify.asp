@@ -1,11 +1,11 @@
-<%
+ï»¿<%
 If session("admin")="admin" Then 
 %>
 <!-- #include file="include/conn.asp" -->
 <%
   set rs=server.CreateObject("adodb.recordset")
   sql="select * from contents where id="&request("id")
-  rem request("id")ÊÇ´«µİ¹ıÀ´µÄ²ÎÊı
+  rem request("id")æ˜¯ä¼ é€’è¿‡æ¥çš„å‚æ•°
   rs.Open sql,conn,1,1
   name = rs("name")
   content = rs("content")
@@ -14,15 +14,15 @@ If session("admin")="admin" Then
 
   <form action="modify_save.asp" method="post" name="name1">
     ID  :<%=id%><input type="hidden" name="id" value=<%=id%> > 
-    ĞÕÃû:<%=name%><br> 
-    ÁôÑÔ:<textarea name="post_contents" rows="10" cols="50"><%=content%></textarea> 
-    <input type="submit" value="Ìá½»ĞŞ¸Ä"> 
+    å§“å:<%=name%><br> 
+    ç•™è¨€:<textarea name="post_contents" rows="10" cols="50"><%=content%></textarea> 
+    <input type="submit" value="æäº¤ä¿®æ”¹"> 
    </form>
 <%
   conn.close
   Set conn = Nothing
   else 
-  response.write ("<script language='javascript'>alert('·Ç·¨½øÈë¿É³Ü£¡');location='index.asp';</script>")
+  response.write ("<script language='javascript'>alert('éæ³•è¿›å…¥å¯è€»ï¼');location='index.asp';</script>")
   End If 
 %>
 

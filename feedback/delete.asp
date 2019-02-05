@@ -1,4 +1,4 @@
-<%
+ï»¿<%
 If session("admin")="admin" Then 
 %>
 <!-- #include file="include/conn.asp" -->
@@ -11,6 +11,6 @@ If session("admin")="admin" Then
   response.redirect("admin_index.asp")
  }
  else 
- response.write ("<script language='javascript'>alert('·Ç·¨½øÈë¿É³Ü£¡');location='index.asp';</script>")
+ response.write ("<script language='javascript'>alert('éæ³•è¿›å…¥å¯è€»ï¼');location='index.asp';</script>")
  End If 
 %>
